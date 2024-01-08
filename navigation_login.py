@@ -13,7 +13,7 @@ def login():
             # Redirect to another page after successful login
             st.markdown(
                 """
-                <meta http-equiv="refresh" content="2;URL='http://localhost:8503/'"/>
+                <meta http-equiv="refresh" content="2;URL='https://pnlmultitabhome.streamlit.app/'"/>
                 """
                 , unsafe_allow_html=True
             )
